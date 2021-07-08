@@ -1,4 +1,6 @@
-public class Economy implements DrivingMode{
+package com.zemoso;
+
+public class Economy implements DrivingMode {
 
     private static final int POWER = 300;
 

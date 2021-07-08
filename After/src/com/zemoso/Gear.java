@@ -1,3 +1,5 @@
+package com.zemoso;
+
 public enum Gear {
     P, // Parking
     R, // Reverse

@@ -1,3 +1,5 @@
+package com.zemoso;
+
 //I - Interface Segregation Principle
 public class Drone extends Vehicle implements CameraSwitch {
 

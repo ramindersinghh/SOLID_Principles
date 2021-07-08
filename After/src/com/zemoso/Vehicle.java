@@ -1,3 +1,5 @@
+package com.zemoso;
+
 public class Vehicle {
 
     private final int maxFuel;

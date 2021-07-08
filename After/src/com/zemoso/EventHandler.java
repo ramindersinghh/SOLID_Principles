@@ -1,3 +1,5 @@
+package com.zemoso;
+
 public class EventHandler {
 
     private Vehicle vehicle;
@@ -8,7 +10,7 @@ public class EventHandler {
 
     public void changeDrivingMode(final DrivingMode drivingMode){
         vehicle.setPower(drivingMode.getPower());
-        // now, when we need to add another mode (e.g. ECONOMY) just create a new class: Economy.
+        // now, when we need to add another mode (e.g. ECONOMY) just create a new class: com.zemoso.Economy.
         // Open Closed Principle problme solved
     }
 }
